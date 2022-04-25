@@ -1,7 +1,9 @@
 <!--
     Links
 
-    In html we have <a> wich is can be called as anchor, this tag  is used to link pages.
+    In html we have <a> wich is can be called as anchor, this tag  is used to link 
+    pages.
+    href is the reference of the link - can be location of the file or an url.
 -->
 
 <!DOCTYPE html>
@@ -14,8 +16,40 @@
     </head>
 
     <body>
+        <h1>Links</h1>
+
         <h2>Internal Links</h2>
         <a href="About us.html">about us</a>
 
+        <h2>External Links</h2>
+        <p>Click <a href="https://www.google.com/">here</a> to go to Google.</p>
+
+        <h1>Link Target attributes</h1>
+
+        <h2>_self</h2>
+        <!--Self will open the link in the same tab/wind-->
+        <p>Click <a href="https://www.google.com/" target="_self">here</a> to go to Google.</p>
+
+        <h2>_blank</h2>
+        <!--Blank will open the link in new window/tab-->
+        <p>Click <a href="https://www.google.com/" target="_blank">here</a> to go to Google.</p>
+
+        <h2>_parent</h2>
+        <!--Open the link the parent frame-->
+        <p>Click <a href="https://www.google.com/" target="_parent">here</a> to go to Google.</p>
+
+        <h2>_top</h2>
+        <p>Click <a href="https://www.google.com/" target="_top">here</a> to go to Google.</p>
+
+        <h1>Image links</h1>
+        
+        <!--Clicking on the image will open google's home page-->
+        <a href="https://www.google.com/" target="_blank">
+            <img src="/Images/Google G logo.png" alt="google G logo">
+        </a>
+
+        <a href="/Links/About us.html" target="_blank">
+            <img src="/Images/About us hand.jpg" alt="About us hand">
+        </a>
     </body>
 </html>
