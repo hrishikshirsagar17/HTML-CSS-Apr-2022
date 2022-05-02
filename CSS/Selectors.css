@@ -1,0 +1,69 @@
+/*
+ This is how to create comment in css 
+*/
+
+/*
+Selecors
+
+What are Selectors?
+You can select multiple tag/element in a html file using selectors.
+
+There are five types of Selectors.
+Simple selectors -  element, id, class
+
+element 
+when you mention element before CSS then you are applying CSS to all the
+elements specified in before the CSS
+
+id
+You can specify id's for elements.
+No more than one element can have same id.
+In html there is an attribute id to define id.
+In css, #id will give you access to id.
+
+Class
+When you have to group more than one element then you can use class.
+In html there is an attribute class to define class.
+In css, .class will give you access to class.
+
+
+
+Select all
+
+* 
+using * (start) you can select all the elements in the page
+*/
+
+/*element selector*/
+p{
+   color: rgb(70, 70, 70);
+}
+
+/*id selector*/
+#CO {
+   color: blue;
+}
+
+/*id selector*/
+#EQ{
+   color: aqua;
+}
+
+/*Class selector*/
+.C1 {
+   color: chartreuse;
+   background-color: chocolate;
+   
+}
+
+
+#PD
+{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* This will be applyed to whole page */
+*{
+   background-color: darkseagreen;
+}
+
