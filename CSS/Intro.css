@@ -1,0 +1,23 @@
+/*
+
+CSS - Cascading style sheets
+
+CSS is used for look and feel of html/webpages.
+
+CSS properties:
+Inheritance
+
+Precidence
+   (lower to higher)
+   external
+   internal
+   inline
+   
+Specificity
+   (lower to higher)
+   universal (*)
+   element
+   class
+   id
+
+*/
