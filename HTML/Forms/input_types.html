@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <title>Input</title>
+   <!--
+         Forms:
+         form is container that will group form elements.
+
+         form elements:
+         <input>
+
+         input types:
+         <input type="button">
+         <input type="checkbox">
+         <input type="color">
+         <input type="date">
+         <input type="datetime-local">
+         <input type="email">
+         <input type="file">
+         <input type="hidden">
+         <input type="image">
+         <input type="month">
+         <input type="number">
+         <input type="password">
+         <input type="radio">
+         <input type="range">
+         <input type="reset">
+         <input type="search">
+         <input type="submit">
+         <input type="tel">
+         <input type="text">
+         <input type="time">
+         <input type="url">
+         <input type="week">
+      -->
+
+      <style>
+      
+      </style>
+</head>
+
+<body>
+
+   <form class="input" id = "ip">
+
+      <lable>Fisrt Name</label>
+      <!--Label is normal text that is displayed in the form-->
+      <input type="text" id = "ip_fn">
+
+      <label>Last Name</label>
+      <input type="text" id="ip_ln">
+      <!--Input element has multiple type, type=text will give us text box, this is the default value for type-->
+
+      <br><br>
+
+      <!--Similar to text box it will hide the characters-->
+      <label>Password</label>
+      <input type="password" id="ip_pass" name="Password" onclick="myFunction()">
+
+
+      <br><br>
+      <!--Check box allows user to select more than one option.-->
+      <label>Select the techonologies you know:</label>
+      <br>
+      <input type="checkbox" id = "ip_tech" value="c">
+      <label> C</label><br>
+      <input type="checkbox" id="ip_tech" value="c++">
+      <label> C++</label><br>
+      <input type="checkbox" id="ip_tech" value="python">
+      <label>Python</label><br>
+      <input type="checkbox" id="ip_tech" value="HTML">
+      <label> HTML </label><br>
+      <input type="checkbox" id="ip_tech" value="CSS">
+      <label> JS</label><br>
+
+      <br><br>
+
+      <!--Radio is used for selecting only one of the many options-->
+      <label>What is your Gender:</label><br>
+      <input type="radio" id="ip_gender" value="Male" name="Gender">
+      <label>Male</label><br>
+      <input type="radio" id="ip_gender" value="Female" name="Gender">
+      <label>Female</label><br>
+      <input type="radio" id="ip_gender" value="Other" name="Gender">
+      <label>Other</label><br>
+
+      <br>
+      <input type="time" id="ip_time">
+
+      <br>
+
+      <input type="url">
+
+      <br>
+      <input type="search">
+   </form>
+
+</body>
+
+</html>
